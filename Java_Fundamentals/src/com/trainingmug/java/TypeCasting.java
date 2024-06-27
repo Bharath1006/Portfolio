@@ -5,12 +5,14 @@ public class TypeCasting {
     public static void main(String[] args) {
         System.out.println("This is typecasting");
 
-        int Integervalue;
-        Integervalue = 250;
-        System.out.println("Integervalue : " +Integervalue);
+        int IntegerValue;
+        IntegerValue = 250;
+        System.out.println("IntegerValue : " +IntegerValue);
 
         byte ByteValue;
-        ByteValue = (byte) Integervalue;
+        ByteValue = (byte) IntegerValue;
         System.out.println("ByteValue :" +ByteValue);
+
+
     }
 }

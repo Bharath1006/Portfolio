@@ -36,6 +36,8 @@ public class Customer {
         BooleanValue = true;
         System.out.println("BooleanValue : " + BooleanValue );
 
-
+        char characterData;
+        characterData = 'M';
+        System.out.println("Character Data : " + characterData);
     }
 }
