@@ -8,33 +8,33 @@ public class Customer {
         byte age = 25;
         System.out.println("Age : " +age);
 
-        String Phone;
-        Phone = "838200717";
-        System.out.println("Phone Number : " + Phone);
+        String phone;
+        phone = "838200717";
+        System.out.println("phone Number : " + phone);
 
         int salary;
         salary = 280;
         System.out.println("Salary : " +salary);
 
-        short Shortvalue;
-        Shortvalue = 2500;
-        System.out.println("Short  value : " + Shortvalue);
+        short shortvalue;
+        shortvalue = 2500;
+        System.out.println("Short  value : " + shortvalue);
 
-        long LongValue;
-        LongValue = 9912919554L;
-        System.out.println("LongValue : " + LongValue);
+        long longValue;
+        longValue = 9912919554L;
+        System.out.println("longValue : " + longValue);
 
-        float FloatValue;
-        FloatValue=101.f;
-        System.out.println("FloatValue : " +FloatValue);
+        float floatValue;
+        floatValue=101.f;
+        System.out.println("FloatValue : " +floatValue);
 
-        double DoubleValue;
-        DoubleValue = 154515.6516;
-        System.out.println("DoubleValue : " + DoubleValue);
+        double doubleValue;
+        doubleValue = 154515.6516;
+        System.out.println("doubleValue : " + doubleValue);
 
-        boolean BooleanValue;
-        BooleanValue = true;
-        System.out.println("BooleanValue : " + BooleanValue );
+        boolean booleanValue;
+        booleanValue = true;
+        System.out.println("booleanValue : " + booleanValue );
 
         char characterData;
         characterData = 'M';
