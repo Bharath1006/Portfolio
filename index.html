@@ -1,71 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Skills</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none; /* Removes default bullet points */
-            padding: 0; /* Removes default padding */
-        }
-        li {
-            margin-bottom: 10px; /* Adds space between list items */
-        }
-        .category {
-            font-weight: bold; /* Bold text for categories */
-            color: #007BFF; /* A different color for better visibility */
-        }
-    </style>
-</head>
-<body>
-    <h1>Technical Skills</h1>
-    <ul>
-        <li><span class="category">Platforms:</span> Windows (2000/NT/XP/Vista), Sun Solaris (2.8/2.9), UNIX</li>
-        <li><span class="category">Programming Languages:</span> Java (JDK 1.5, 1.6, 1.7, 1.8), C, C++</li>
-        <li><span class="category">Scripting:</span> 
-            <br> Server-Side: JSP (1.2, 2.1), JSP-EL, JSTL, Custom Tags 
-            <br> Client-Side: jQuery (1.8, 1.9), jQuery UI, AngularJS (2, 4), React, JavaScript, CSS (2, 3), HTML (4, 5), Node.js, TypeScript, ECMAScript (5, 6), Grunt, Protractor, Jasmine
-        </li>
-        <li><span class="category">Java Frameworks:</span> Struts (1.2, 2.1), Spring (MVC, DI, AOP), JSF (1.1, 2.1), GWT, Vadim</li>
-        <li><span class="category">Database Tools:</span> Toad (for Oracle, MySQL, DB2, MS-SQL), Erwin, MySQL Workbench, Spark, Altona Database Spy</li>
-        <li><span class="category">Databases:</span> DB2, MS-SQL Server, HSQLDB, PostgreSQL, MySQL</li>
-        <li><span class="category">Middleware Technologies:</span> EJB (2.1, 3.0), CORBA, RMI, JMS</li>
-        <li><span class="category">Version Control:</span> Tortoise SVN, Rational ClearCase, GitHub, CVS, AccuRev</li>
-        <li><span class="category">IDEs:</span> Eclipse (3.0, 3.1), MyEclipse (4.1), IntelliJ, NetBeans, JBuilder (2007), JDeveloper</li>
-        <li><span class="category">Build Tools:</span> ANT (1.7, 1.8, 1.9), Maven, Gradle</li>
-        <li><span class="category">Continuous Integration:</span> Jenkins, Hudson</li>
-        <li><span class="category">XML Technologies:</span> 
-            <br> Tools: Altona XML Spy (2005, 2008) 
-            <br> Technologies: XSLT, JAXP, JDOM, SAX, DOM, XPATH, XPOINTER, XML, XSD, DTD
-        </li>
-        <li><span class="category">Web Services:</span> 
-            <br> Specifications: JAX-RPC, JAX-WS, JAX-RS 
-            <br> Implementations: Axis (1.0, 2.1), JWSDP (2.1), Sun Metro, Jersey, Apache CXF 
-            <br> Tools: SoapUI (4.0, 5.1), TCP, REST APIs
-        </li>
-        <li><span class="category">Testing:</span> 
-            <br> Whitebox Testing: JUnit (3, 4), DBUnit, Juniper, HTTPUnit, Selenium, Mockito, Fitness 
-            <br> Blackbox Testing: JMeter, LoadUI, LoadRunner, HP Quality Center, WinRunner
-        </li>
-        <li><span class="category">Application Servers:</span> WebLogic (8.1, 10.0), WebSphere (6.1), JBoss (4.0), GlassFish (4.0)</li>
-        <li><span class="category">Web Servers:</span> Tomcat (5.0, 6.0, 7.1), Joans</li>
-        <li><span class="category">UML Tools:</span> Altona UML Model, Rational Enterprise, MS Visio</li>
-        <li><span class="category">ORM Frameworks:</span> Hibernate (3.0, 3.1, 4.1), TopLink, OpenAI, Abattis</li>
-        <li><span class="category">Defect Tracking:</span> JIRA, Bugzilla, Rational ClearQuest</li>
-        <li><span class="category">Methodologies:</span> Agile (XP, Scrum), Rational Unified Process (RUP), Waterfall, Kanban</li>
-        <li><span class="category">Batch Processing:</span> Quartz Scheduler, Cron, Spring Batch</li>
-        <li><span class="category">HTML Editors:</span> MS FrontPage (2003), Adobe Dreamweaver, Coffee Cup HTML</li>
-        <li><span class="category">Templating:</span> Velocity, FreeMarker</li>
-        <li><span class="category">Search APIs:</span> Solr, Lucene</li>
-        <li><span class="category">Cloud Technologies:</span> AWS, IBM Bluemix, Pivotal Cloud Foundry, Spring Cloud</li>
-    </ul>
-</body>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bharath Kumar Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Welcome To My Professional Portfolio 💻</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Technical Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">PROFESSIONAL EXPERIENCE</a>
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Bharath Kumar
+            <span class="text-primary">Pakam</span>
+          </h1>
+          <div class="subheading mb-3">Albany, United States 12203 · (518) 612-4552 ·
+            <a href="mailto:pakambharathkumar@gmail.com">pakambharathkumar@gmail.com</a>
+          </div>
+          <p class="mb-3">
+            <strong>Experienced IT professional</strong> with over <strong>10 years</strong> in <strong>Java Full Stack Development</strong>, specializing in the design, development, and testing of <strong>distributed web applications</strong> and <strong>client-server systems</strong>. Proficient in front-end technologies like <strong>JSP, HTML5, CSS3, JavaScript, jQuery, ReactJS, Angular</strong>, and <strong>TypeScript</strong>. Strong expertise in <strong>cloud deployment using AWS</strong>, including <strong>EC2, S3, VPC</strong>, and related services.
+        </p>
+        
+        <p class="mb-3">
+            Skilled in building <strong>RESTful APIs</strong> and <strong>SOAP services</strong> using frameworks like <strong>AXIS, JAX-WS, Jersey</strong>, and <strong>Apache CXF</strong>. Deep knowledge of <strong>Java 1.8 features</strong> like <strong>lambda expressions</strong> and <strong>Stream APIs</strong> to enhance code efficiency. Hands-on with <strong>Microservices architecture</strong> using <strong>Spring Boot</strong> and <strong>Netflix Eureka</strong> for distributed systems.
+        </p>
+        
+        <p class="mb-3">
+            Proficient in <strong>ReactJS</strong> with experience in <strong>React-Router</strong> and <strong>Redux</strong> for scalable front-end solutions. Expertise in <strong>Spring Framework</strong> modules like <strong>Spring MVC, Spring Boot</strong>, and <strong>Spring Microservices</strong>. Strong skills in <strong>database management</strong> with <strong>Oracle, MySQL</strong>, and NoSQL technologies such as <strong>MongoDB</strong>.
+        </p>
+        
+        <p class="mb-5">
+            Experienced with <strong>CI/CD pipelines</strong> using <strong>Jenkins, Docker</strong>, and <strong>Kubernetes</strong> for automated deployment. Familiar with version control systems like <strong>Git</strong> and <strong>Bitbucket</strong> for code management. Expertise in <strong>JIRA</strong> and <strong>Rally</strong> for project tracking.
+        </p>
+        
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/bharath-kumar-2a4856147/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/Bharath1006">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://x.com/PBharat10439216">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/bharath1241/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/bharath199807/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Technical Skills</h2>
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Category</h3></th>
+    <th style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Skills</h3></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Platforms</h3></b></td>
+    <td style="border: 1px solid black; padding: 8px;">Windows (2000/NT/XP/Vista), Sun Solaris (2.8/2.9), UNIX</td>
+  </tr>
+  <tr></tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Programming Languages</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Java (JDK 1.5, 1.6, 1.7, 1.8), C, C++</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Scripting</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">
+      <strong>Server-Side:</strong> JSP (1.2, 2.1), JSP-EL, JSTL, Custom Tags<br>
+      <strong>Client-Side:</strong> jQuery (1.8, 1.9), jQuery UI, AngularJS (2, 4), React, JavaScript, CSS (2, 3), HTML (4, 5), Node.js, TypeScript, ECMAScript (5, 6), Grunt, Protractor, Jasmine
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Java Frameworks</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Struts (1.2, 2.1), Spring (MVC, DI, AOP), JSF (1.1, 2.1), GWT, Vadim</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Database Tools</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Toad (for Oracle, MySQL, DB2, MS-SQL), Erwin, MySQL Workbench, Spark, Altona Database Spy</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Databases</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">DB2, MS-SQL Server, HSQLDB, PostgreSQL, MySQL</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Middleware Technologies</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">EJB (2.1, 3.0), CORBA, RMI, JMS</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Version Control</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Tortoise SVN, Rational ClearCase, GitHub, CVS, AccuRev</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">IDEs</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Eclipse (3.0, 3.1), MyEclipse (4.1), IntelliJ, NetBeans, JBuilder (2007), JDeveloper</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Build Tools</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">ANT (1.7, 1.8, 1.9), Maven, Gradle</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Continuous Integration</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Jenkins, Hudson</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">XML Technologies</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">
+      <strong>Tools:</strong> Altona XML Spy (2005, 2008)<br>
+      <strong>Technologies:</strong> XSLT, JAXP, JDOM, SAX, DOM, XPATH, XPOINTER, XML, XSD, DTD
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Web Services</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">
+      <strong>Specifications:</strong> JAX-RPC, JAX-WS, JAX-RS<br>
+      <strong>Implementations:</strong> Axis (1.0, 2.1), JWSDP (2.1), Sun Metro, Jersey, Apache CXF<br>
+      <strong>Tools:</strong> SoapUI (4.0, 5.1), TCP, REST APIs
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Testing</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">
+      <strong>Whitebox Testing:</strong> JUnit (3, 4), DBUnit, Juniper, HTTPUnit, Selenium, Mockito, Fitness<br>
+      <strong>Blackbox Testing:</strong> JMeter, LoadUI, LoadRunner, HP Quality Center, WinRunner
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Application Servers</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">WebLogic (8.1, 10.0), WebSphere (6.1), JBoss (4.0), GlassFish (4.0)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Web Servers</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Tomcat (5.0, 6.0, 7.1), Joans</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">UML Tools</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Altona UML Model, Rational Enterprise, MS Visio</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">ORM Frameworks</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Hibernate (3.0, 3.1, 4.1), TopLink, OpenAI, Abattis</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Defect Tracking</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">JIRA, Bugzilla, Rational ClearQuest</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Methodologies</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Agile (XP, Scrum), Rational Unified Process (RUP), Waterfall, Kanban</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Batch Processing</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Quartz Scheduler, Cron, Spring Batch</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">HTML Editors</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">MS FrontPage (2003), Adobe Dreamweaver, Coffee Cup HTML</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Templating</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Velocity, FreeMarker</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Search APIs</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">Solr, Lucene</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;"><h3 class="mb-0">Cloud Technologies</h3></td>
+    <td style="border: 1px solid black; padding: 8px;">AWS, IBM Bluemix, Pivotal Cloud Foundry, Spring Cloud</td>
+  </tr>
+</table>
+</div>
+</section>
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+  <div class="my-auto">
+      <h2 class="mb-5">PROFESSIONAL EXPERIENCE</h2>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+              <h3 class="mb-0">Full Stack Developer</h3>
+              <div class="subheading mb-3">Nationwide Insurance, Columbus, OH</div>
+              <ul>
+                  <li>Contributed development of front-end using <strong>React.js</strong>, <strong>TypeScript</strong>, and back-end using <strong>Spring Boot</strong>.</li>
+                  <li>Designed responsive UIs with <strong>Bootstrap</strong> and <strong>Material UI</strong>, enhancing user experience.</li>
+                  <li>Implemented secure RESTful APIs using <strong>OAuth2</strong> and <strong>JWT</strong>.</li>
+                  <li>Developed event-driven microservices with <strong>Kafka</strong> and ensured high throughput with <strong>Avro schemas</strong>.</li>
+                  <li>Utilized <strong>Spring Cloud</strong> (Eureka, Hystrix, Ribbon) for service discovery, circuit breakers, and load balancing.</li>
+                  <li>Deployed microservices on <strong>AWS</strong> and <strong>Azure</strong>, leveraging <strong>EC2</strong>, <strong>S3</strong>, and <strong>Lambda</strong> for serverless computing.</li>
+                  <li>Orchestrated containers with <strong>Docker</strong> and <strong>Kubernetes</strong>; managed deployments using <strong>Helm</strong>.</li>
+                  <li>Automated CI/CD pipelines with <strong>Jenkins</strong>, <strong>Azure DevOps</strong>, and performed static code analysis with <strong>SonarQube</strong>.</li>
+                  <li>Optimized performance through <strong>JVM tuning</strong> and implemented caching with <strong>Redis</strong> and <strong>Elasticsearch</strong>.</li>
+                  <li>Followed <strong>Agile (Scrum)</strong> methodologies and applied <strong>Test-Driven Development (TDD)</strong> with <strong>JUnit</strong> and <strong>Mockito</strong>.</li>
+              </ul>
+          </div>
+          <div class="resume-date text-md-right">
+              <span class="text-primary">July 2023 – Present</span>
+          </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+              <h3 class="mb-0">Full Stack Developer</h3>
+              <div class="subheading mb-3">US Bank, CA</div>
+              <ul>
+                  <li>Developed <strong>SPAs</strong> using <strong>Angular 9</strong>, <strong>RxJS</strong>, <strong>TypeScript</strong>, and <strong>Material UI</strong>, optimizing frontend performance with <strong>WebAssembly</strong>.</li>
+                  <li>Designed and implemented <strong>RESTful APIs</strong> and microservices using <strong>Spring Boot</strong>, <strong>Spring Security</strong>, and <strong>OAuth 2.0</strong>, secured with <strong>JWT</strong> and enhanced with <strong>GraphQL</strong>.</li>
+                  <li>Used <strong>Spring WebFlux</strong> for building non-blocking reactive services and integrated with <strong>gRPC</strong>.</li>
+                  <li>Applied <strong>Kafka Streams</strong> for event-driven microservices, incorporating <strong>CQRS</strong> and <strong>Event Sourcing</strong> patterns.</li>
+                  <li>Managed microservice deployments on <strong>AWS</strong> using <strong>EKS</strong>, <strong>Helm</strong>, and <strong>Terraform</strong>.</li>
+                  <li>Built real-time data pipelines with <strong>Apache Kafka</strong> and managed state with <strong>Redis</strong>.</li>
+                  <li>Leveraged <strong>Java 8</strong> features like <strong>Streams API</strong> and <strong>Lambdas</strong> to implement business logic.</li>
+                  <li>Secured APIs with <strong>OAuth 2.0</strong>, using implicit and API grant types.</li>
+                  <li>Implemented <strong>Hystrix</strong> for circuit breaker patterns and registered services with <strong>Eureka</strong>.</li>
+                  <li>Worked with <strong>MongoDB</strong> for NoSQL storage and integrated pipelines for cluster interaction.</li>
+                  <li>Migrated <strong>AWS RDS</strong> databases to <strong>EC2</strong> instances for cost optimization.</li>
+                  <li>Deployed microservices using <strong>AWS EC2</strong>, <strong>Kubernetes</strong>, and <strong>Docker</strong>.</li>
+                  <li>Wrote unit tests using <strong>JUnit 5</strong>, <strong>Mockito</strong>, and frontend tests with <strong>Karma</strong>.</li>
+                  <li>Conducted performance testing with <strong>JMeter</strong> and utilized <strong>H2 database</strong> for integration testing.</li>
+                  <li>Implemented logging with <strong>Log4J2</strong> for application debugging and error tracking.</li>
+                  <li>Participated in code reviews, improving code quality through <strong>Git-based Pull Requests</strong>.</li>
+                  <li>Integrated <strong>Prometheus</strong> and <strong>Grafana</strong> for advanced application monitoring.</li>
+                  <li>Migrated legacy systems to <strong>Java 17</strong>, utilizing its advanced features.</li>
+                  <li>Implemented <strong>Zero Trust Security</strong> principles with <strong>mTLS</strong>.</li>
+              </ul>
+          </div>
+          <div class="resume-date text-md-right">
+              <span class="text-primary">April 2021 – June 2023</span>
+          </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+              <h3 class="mb-0">Full Stack Developer</h3>
+              <div class="subheading mb-3">Copart, TX</div>
+              <ul>
+                  <li>Engaged in various phases of the <strong>Software Development Life Cycle (SDLC)</strong>, including requirement gathering, modeling, analysis, design, development, and testing using <strong>Agile (SCRUM)</strong> methodology.</li>
+                  <li>Developed rich user interfaces as <strong>Single Page Applications (SPAs)</strong> using <strong>AngularJS</strong>, <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>, leveraging <strong>Material UI</strong> for enhanced design.</li>
+                  <li>Implemented routing logic and navigation between screens while utilizing <strong>RxJS</strong> operators for managing asynchronous data streams.</li>
+                  <li>Enhanced application performance using <strong>Java 8</strong> features such as <strong>Streams</strong> and <strong>Lambda expressions</strong>.</li>
+                  <li>Developed and maintained <strong>Microservices</strong> using <strong>Spring Boot</strong>, <strong>Spring MVC</strong>, and <strong>Spring Security</strong>, implementing <strong>RESTful APIs</strong> with <strong>OAuth2</strong> for secure access.</li>
+                  <li>Utilized <strong>Spring Batch</strong> for processing large volumes of data, job scheduling, and transactional management.</li>
+                  <li>Integrated <strong>Hibernate</strong> as the ORM framework for seamless database interactions.</li>
+                  <li>Designed and executed complex <strong>SQL queries</strong> and stored procedures using <strong>TOAD</strong> to optimize database performance.</li>
+                  <li>Worked with <strong>MongoDB</strong> to store and retrieve non-relational data and developed an integration pipeline with <strong>Elasticsearch</strong> for advanced querying and reporting.</li>
+                  <li>Employed <strong>Kafka</strong> for real-time data streaming and processing, implementing producers and consumers within the microservices architecture.</li>
+                  <li>Deployed applications on <strong>AWS</strong> using <strong>EC2</strong>, <strong>Elastic Beanstalk</strong>, and <strong>S3</strong>, managing cloud resources for cost-effective hosting.</li>
+                  <li>Implemented <strong>Docker</strong> for containerization of applications and <strong>Kubernetes</strong> for orchestration.</li>
+                  <li>Developed comprehensive test suites using <strong>JUnit</strong>, <strong>Mockito</strong>, <strong>Selenium WebDriver</strong>, and <strong>Jest</strong> for frontend testing.</li>
+                  <li>Utilized <strong>JIRA</strong> for project management and tracking progress through <strong>Scrum</strong> ceremonies.</li>
+                  <li>Collaborated with cross-functional teams to refine requirements and design effective solutions.</li>
+              </ul>
+          </div>
+          <div class="resume-date text-md-right">
+              <span class="text-primary">July 2019 – March 2021</span>
+          </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+            <h3 class="mb-0">Full Stack Developer</h3>
+            <div class="subheading mb-3">PegaSystems, Hyderabad, India</div>
+            <ul>
+                <li>Led end-to-end design, development, and testing of the <strong>Streamlets</strong> module using <strong>Agile</strong> and <strong>SCRUM</strong> methodologies.</li>
+                <li>Developed <strong>Single Page Applications (SPAs)</strong> with <strong>Angular</strong>, <strong>HTML5</strong>, and <strong>CSS3</strong>, optimizing performance through <strong>Lazy Loading</strong> and ahead-of-time compilation.</li>
+                <li>Created services to consume <strong>REST APIs</strong> and facilitated communication between components using <strong>Angular’s Dependency Injection</strong>.</li>
+                <li>Utilized <strong>Java 8 Stream API</strong> and <strong>Method References</strong> to enhance code readability and maintainability.</li>
+                <li>Developed microservices using <strong>Spring Boot</strong>, <strong>Spring MVC</strong>, and <strong>Spring Security</strong>, implementing <strong>RESTful APIs</strong> and <strong>OAuth2</strong> for secure access.</li>
+                <li>Created <strong>SOAP services</strong> using <strong>WSDL</strong>, <strong>Swagger</strong>, <strong>Axis-2</strong>, <strong>Apache CXF</strong>, along with RESTful services. Developed RESTful web services using the <strong>MERN</strong> stack & implemented dynamic filtering.</li>
+                <li>Utilized the <strong>Jackson API</strong> for JSON serialization and deserialization in Spring applications. Implemented <strong>Spring ORM</strong> with <strong>Hibernate</strong>, utilizing annotations for metadata, and wrote configuration files for <strong>Oracle</strong> database interactions. Managed <strong>AWS Oracle RDS</strong> databases and performed data migration using data pump utilities.</li>
+                <li>Designed <strong>CI/CD pipelines</strong> using <strong>Jenkins</strong>, <strong>GIT</strong>, and <strong>Chef</strong> for automated deployment and integration. Ensured code quality through unit testing with <strong>JUnit</strong>, <strong>Mockito</strong>, and <strong>Karma</strong>, along with automation testing using <strong>Selenium</strong>.</li>
+                <li>Configured and deployed applications on <strong>AWS</strong>, leveraging services such as the <strong>API Gateway</strong> and <strong>ELK stack</strong> for high availability. Utilized version control with <strong>GIT</strong> and project management with <strong>JIRA</strong>.</li>
+            </ul>
+        </div>
+        <div class="resume-date text-md-right">
+            <span class="text-primary">November 2016 – July 2018</span>
+        </div>
+    </div>
+    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+      <div class="resume-content mr-auto">
+          <h3 class="mb-0">Full Stack Developer</h3>
+          <div class="subheading mb-3">RealPage India Pvt Ltd, Hyderabad, India</div>
+          <ul>
+              <li>Participated in all phases of the <strong>Software Development Life Cycle (SDLC)</strong>, including requirement gathering, design, analysis, and development.</li>
+              <li>Provided production support and optimized application performance, monitoring end-of-day loads using <strong>JProfiler</strong>.</li>
+              <li>Developed microservices and APIs with <strong>Spring Boot</strong>, <strong>Spring Cloud</strong>, and <strong>Spring Security</strong>, integrating with backend systems.</li>
+              <li>Designed front-end components and managed interactions with <strong>Spring Boot REST Services</strong>.</li>
+              <li>Set up <strong>Maven</strong> for build configuration and automated deployment processes.</li>
+              <li>Utilized <strong>Behavior Driven Development (BDD)</strong> methodologies for test case creation.</li>
+              <li>Engaged in defect resolution and change requests, ensuring timely delivery of enhancements.</li>
+              <li>Conducted database design and wrote <strong>SQL queries</strong> and <strong>stored procedures</strong> in <strong>Oracle</strong>.</li>
+              <li>Deployed applications on <strong>JBOSS</strong> and ensured smooth operations using <strong>Git</strong> for version control and <strong>JIRA</strong> for project tracking.</li>
+          </ul>
+      </div>
+      <div class="resume-date text-md-right">
+          <span class="text-primary">May 2014 – October 2016</span>
+      </div>
+  </div>
+  
+  </div>
+</section>
+  </body>
+
 </html>
